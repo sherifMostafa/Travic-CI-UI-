@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    height: 3000px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    color: rgba(0, 0, 0, .5);
+}
+
+
+/* **************NavBar**************** */
+
+.navSection {
+    margin: 10px 0;
+}
+
+.navSection .icon {
+    display: inline-block;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.navSection ul {
+    display: inline-block;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.navSection ul li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    color: rgba(0, 0, 0, .7);
+    font-size: 14px;
+}
+
+.btn {
+    float: right;
+    width: 150px;
+    margin-top: 15px;
+}
+
+button {
+    color: #2EB459;
+    border: 1px solid #2EB459;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 6px 45px;
+    border-radius: 2px;
+}
+
+.navSection button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #2EB459;
+}
+
+
+/* *************Header******************* */
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container h1 {
+    margin: 49px 0 0 0;
+    font-size: 55px;
+    color: #3EAAAF;
+}
+
+header .container p {
+    font-size: 18px;
+}
+
+header .container button {
+    margin: 20px 0 0;
+    font-size: 20px;
+    padding: 15px 35px;
+    color: #fff;
+    background-color: #2EB459;
+}
+
+header .container button:hover {
+    cursor: pointer;
+    background-color: #269449;
+}
+
+header .container img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+/* ************count Section*************************** */
+
+.counter .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter .container h1 {
+    color: #39AA86;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.counter .container p {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.counter .container .count {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    position: relative;
+}
+
+.counter .container .count div {
+    display: inline-block;
+    color: #fff;
+    background-color: #2EB459;
+    border-radius: 5px;
+    height: 100%;
+    margin: 10px;
+    width: 90px;
+    font-size: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: center;
+}
+
+.counter .container .count .line {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+}
+
+
+/* ***************companies************************* */
+
+.companies {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies h2 {
+    color: rgba(0, 0, 0, .5);
+    font-size: 28px;
+}
+
+.companies ul {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.companies ul li {
+    margin: 0 15px;
+    display: inline;
+}
+
+
+/* ***************test******************* */
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.test h1 {
+    color: #44BCD3;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.test p {
+    font-size: 25px;
+}
+
+.test h1,
+.test p {
+    text-align: center;
+    width: 700px;
+}
+
+.separate-line {
+    margin: 50px 0;
+    height: 3px;
+    width: 200px;
+    background-color: #EAEAEA;
+}
